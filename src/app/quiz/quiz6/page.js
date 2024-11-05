@@ -11,7 +11,7 @@ export default function Plan() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-[#FFF7E5] text-center p-6">
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-lg text-custom-brown mb-6">
                 เธอคิดว่าเธอใช้เงินไปเท่าไหร่แล้วล่ะ
             </p>
             <div className="mb-6">

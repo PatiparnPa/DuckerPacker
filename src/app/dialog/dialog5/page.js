@@ -15,7 +15,7 @@ export default function Welcome({ params }) {
             onClick={handleScreenClick}
             className="flex flex-col items-center justify-center min-h-screen bg-[#FFF7E5] text-center p-6 cursor-pointer"
         >
-            <h1 className="text-[135px] font-bold text-gray-700 mb-2">แต่..</h1>
+            <h1 className="text-[135px] font-bold text-custom-brown mb-2">แต่..</h1>
         </div>
     );
 }

@@ -19,12 +19,12 @@ export default function Home() {
       <>
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#FFF7E5] text-center p-6">
         <h1 className="text-[70px] font-bold text-custom-orange">สวัสดี</h1>
-        <p className="text-lg text-gray-700 mb-6">เหล่าสหายที่รักการเดินทางทั้งหลาย</p>
+        <p className="text-lg text-custom-brown mb-6">เหล่าสหายที่รักการเดินทางทั้งหลาย</p>
         <div className="mb-6">
           <img src="/duck.png" alt="Ducky" className="w-198 h-296" />
           <p className="text-xl font-medium mt-4">ข้ามีนามว่า <span className="text-orange-500 font-bold">Ducky</span></p>
         </div>
-        <p className="text-lg text-gray-700 mb-4">แล้วเจ้าชื่อว่าอะไรหรอ?</p>
+        <p className="text-lg text-custom-brown mb-4">แล้วเจ้าชื่อว่าอะไรหรอ?</p>
         <input
           type="text"
           placeholder="กรอกชื่อของเจ้าในช่องนี้ได้เลยย"

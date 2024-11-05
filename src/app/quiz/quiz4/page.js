@@ -12,7 +12,7 @@ export default function Plan() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-[#FFF7E5] text-center p-6">
             <h1 className="text-[32px] font-bold text-[#F88F24]">เรามาถึงกันแล้ว!</h1>
-            <p className="text-lg text-gray-700">สถานที่ตรงหน้าเธอตอนนี้คือที่ไหน</p>
+            <p className="text-lg text-custom-brown">สถานที่ตรงหน้าเธอตอนนี้คือที่ไหน</p>
             <br />
 
             {/* Button container */}

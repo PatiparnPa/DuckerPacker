@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         'custom-orange': '#F88F24',
+        'custom-brown': '#241C11',
       },
     },
   },
