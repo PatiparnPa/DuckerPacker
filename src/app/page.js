@@ -13,7 +13,6 @@ export default function Home() {
   };
 
   const handleNext = () => {
-    // Redirect to `/welcome/encoded-name`
     router.push(`/welcome/${encodeURIComponent(name)}`);
   };
     return (
@@ -36,7 +35,7 @@ export default function Home() {
         <button
           onClick={handleNext}
           className="bg-orange-500 text-white px-4 py-2 rounded-md font-bold hover:bg-orange-600"
-          disabled={!name} // Disable button if no name
+          disabled={!name} 
         >
           ถัดไป
         </button>

@@ -1,18 +1,15 @@
-// src/app/layout.js
+import "./globals.css"; 
+import { Prompt } from 'next/font/google';
 
-import "./globals.css"; // นำเข้าไฟล์ CSS
-import { Prompt } from 'next/font/google'; // นำเข้าฟอนต์ Prompt
-
-// กำหนดฟอนต์ Prompt
 const prompt = Prompt({
-  variable: '--font-prompt', // ตัวแปรสำหรับใช้ใน CSS
-  weight: ['400', '700'], // น้ำหนักฟอนต์ที่ต้องการใช้
-  subsets: ['latin'], // ระบุ subset ที่ต้องการ
+  variable: '--font-prompt', 
+  weight: ['400', '700'], 
+  subsets: ['latin'], 
 });
 
 export const metadata = {
-  title: "DuckerPacker Quiz", // เปลี่ยน title เป็น "DuckerPacker Quiz"
-  description: "Quiz application for DuckerPacker.", // สามารถปรับคำอธิบายได้ตามต้องการ
+  title: "DuckerPacker Quiz", 
+  description: "Quiz application for DuckerPacker.",
 };
 
 export default function RootLayout({ children }) {
@@ -21,7 +18,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/images/favicon.png" type="image/png" />
       </head>
-      <body className={prompt.variable}> {/* ใช้ตัวแปรฟอนต์ */}
+      <body className={prompt.variable}> 
         <main>{children}</main>
       </body>
     </html>
