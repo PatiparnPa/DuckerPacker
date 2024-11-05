@@ -9,7 +9,7 @@ export default function Welcome({ params }) {
 
   // Handle click anywhere on the screen
   const handleScreenClick = () => {
-    router.push('/quiz/quiz1'); // Navigate to the `/plan` page when clicked
+    router.push('/quiz/quiz4'); // Navigate to the `/plan` page when clicked
   };
 
   return (
@@ -18,13 +18,10 @@ export default function Welcome({ params }) {
       className="flex flex-col items-center justify-center min-h-screen bg-[#FFF7E5] text-center p-6 cursor-pointer"
     >
       <h1 className="text-4xl font-bold text-gray-700 mb-2">เอาหละ!</h1>
-      <p className="text-2xl font-bold text-gray-700 mb-2">
-        {decodeURIComponent(name)}
-      </p>
       <div className="mb-6">
       <img src="/duck.png" alt="Ducky" className="w-198 h-296" />
       </div>
-      <p className="text-lg text-gray-700">พร้อมออกเดินทางไปกับฉันรึยัง</p>
+      <p className="text-lg text-gray-700">ในที่สุดก็ได้เวลาออกเดินทางสักที</p>
     </div>
   );
 }
